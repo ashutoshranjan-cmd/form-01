@@ -1,0 +1,351 @@
+
+body{
+    /* background:linear-gradient(135deg,white,rgb(248, 200, 200)) */
+    background: linear-gradient(135deg, rgb(125, 124, 124) ,white,white);
+}
+#first{
+    /* display: none; */
+    position:relative;
+}
+#logo{
+    height:4rem;
+    width: 6rem;
+    margin-top: -30px;
+    margin-left: 1rem;
+}
+#login{
+   
+    color:white;
+    background-color: rgb(30, 30, 30);
+    height: 2rem;
+    width: 5rem;
+    margin-top: -5px;
+    font-size: 1.2rem;
+    border-radius:5px;
+    margin-left: 45rem;
+
+}
+#signup{
+    color:white;
+    background-color: rgb(30, 30, 30);
+    height: 2rem;
+    width: 5rem;
+    margin-top: -5px;
+    font-size: 1.2rem;
+    border-radius:5px;
+ 
+
+
+}
+#login:hover{
+    cursor:pointer;
+    color:lightgreen;
+}#signup:hover{
+    cursor:pointer;
+    color:lightgreen;
+}
+nav{
+    background:linear-gradient(135deg,black,rgb(64,64,64),black);
+    width: 101.2%;
+    height: 100%;
+    margin-left: -10px;
+    margin-top: -21px;
+    height: 5rem;
+    overflow: hidden;
+
+}
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+
+}
+li{
+    margin: 10px;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+li:hover{
+    color:lightgreen;
+    cursor: pointer;
+}
+#search{
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 20rem;
+}
+#searchbtn{
+    background:linear-gradient(to right, lightgreen, yellow);
+    height: 2.22rem;
+    border-radius: 5px;
+    box-shadow: -5px -5px 15px black inset;
+    color: white;  
+    width: 5rem;
+}
+#searchbtn:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.search{
+    margin-top: 1.8rem;
+    display: inline;
+}
+.slider{
+    height: 25rem;
+    width: 90%;
+    margin-top:1rem;
+    margin-left:6rem;
+    position: relative;
+    overflow: hidden;
+    border-radius:10px;
+
+}
+.img
+{
+    height: 25rem;
+    width: 100%;
+    position:absolute;
+    animation: 10s  infinite;
+    animation-name: slider;
+}
+#photo1{
+    width:100%
+}
+#photo2{
+    width:100%;
+    margin-left:100%;
+    position: absolute;
+}
+#photo3{
+    width:100%;
+    margin-left:200%;
+    position: absolute;
+}
+#photo4{
+    width:100%;
+    margin-left:300%;
+    position: absolute;
+
+}
+@keyframes slider {
+   0%{
+    left:0%
+   }
+   9%{
+    left:-0%;
+   }
+   18%{
+    left:-100%;
+   }
+   27%{
+    left:-100%;
+   }
+   36%{
+    left:-200%;
+   }
+   45%{
+    left:-200%;
+   }
+   54%{
+    left:-300%;
+   }
+   62%{
+    left:-300%;
+   }
+   71%{
+    left:-200%;
+   }
+   80%{
+    left:-200%;
+   }
+   86%{
+    left:-100%;
+   }
+   93%{
+    left:-100%;
+   }
+   100%{
+    left:0%;
+   }
+} 
+.heading{
+    margin-left: 38%;
+    font-size:2.5rem;
+    color: black;
+}
+.heading2{
+    margin-left: 42%;
+    font-size:2.5rem;
+    color: black;
+}
+.heading3{
+    margin-left: 10px;
+    margin-top: 5rem;
+}
+.grid{
+    margin-top: 5rem;
+    width: 100%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.box{
+    height: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px  black;
+    
+}
+.image{
+    height: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+}
+.terms{
+    padding: 15px;
+    font-size: 0.9rem;
+}
+footer{
+    background:linear-gradient(to right,black,rgb(64, 64, 64),black);
+    color: white;
+    /* margin-top: 50%; */
+    margin-bottom: -10px;
+    width: 101.2%;
+    margin-left: -10px;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-around
+}
+.copy{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#foot-img{
+    height: 7rem;
+    width:15rem;
+}
+marquee{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand{
+    margin-top: 3rem;
+    height: 10rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#second{
+    margin-left:35%;
+    display: none;
+    position: absolute;
+    top:0;
+}
+form{
+    margin-top: 2rem;
+    height: 40rem;
+    width: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    background-color:rgb(30, 29, 29);
+    opacity: 0.98;
+    color: white;
+
+   }
+   select{
+    height: 2rem;
+    width: 4.2rem;
+    border: 2px solid black;
+    border-radius: 3px;
+   }
+   select:hover{
+    cursor: pointer;
+   }
+   input{
+    border-radius: 3px;
+    height: 1.2rem;
+    font-weight: bolder;
+   }
+    label{
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+
+    }
+  .gender{
+    margin-left:-7.5rem;
+    font-size: 1rem;
+  }
+  .photo{
+    margin-left: 4.5rem;
+  }
+  .agree{
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    justify-content:space-around;
+    margin-left: -10rem;
+  }
+  #agree{
+    margin-left: -20rem;
+    }
+    #submit{
+        height: 2rem;
+        width: 5rem;
+        font-weight: bolder;
+        border-radius:5px;
+        background-color: rgb(221, 66, 66);
+        color: white;
+    }
+    #submit:hover{
+        color: white;
+        background-color: limegreen;
+        cursor: pointer;
+    }
+    #file{
+        height: 2rem;
+    }
+    #file:hover{
+        cursor: pointer;
+    }
+    #cut{
+        height: 25px;
+        width: 25px;
+        margin-left: 29rem;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #cut:hover{
+        cursor:pointer;
+    }
+
+    #cb:hover{
+        cursor: pointer;
+    }
+    #third{
+        position:absolute;
+        top:25%;
+        margin-left:30%;
+        display: none;
+    }
+    #form2{
+        height: 15rem;
+        opacity: 0.98;
+    }
+
