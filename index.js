@@ -22,3 +22,14 @@ function form2(){
     temp2.style.filter="blur(0px)";
     temp.style.display="none";
 }
+function view(){
+    let temp = document.getElementById('ham-option');
+    
+    if(temp.style.display=="none")
+    {
+        temp.style.display="flex";
+    }
+    else{
+        temp.style.display="none";
+    }
+}
