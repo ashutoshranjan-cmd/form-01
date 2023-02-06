@@ -10,6 +10,7 @@
   </head>
   <body>
     <div id="first">
+      <div class="non-ham">
     <nav>
       <ul>
         <li><img id="logo" src="img/shop.png" alt="" /></li>
@@ -28,6 +29,22 @@
         <li><button id="signup" onclick="hide()">Signup</button></li>
       </ul>
     </nav>
+  </div>
+    
+      <div class="ham">
+      <div class="ham-search1">
+          <img id="res-logo" src="img/shop.png" onclick="view()" alt="">
+          <div class="ham-input">
+              <input type="text">
+              <button id="ham-search">search</button>
+          </div>
+          </div>
+     
+      <div id="ham-option">
+          <button id="ham-login"onclick="hide2()">Login</button>
+          <button id="ham-signup"onclick="hide()">SignUp</button>
+      </div>
+    </div>
     <div class="slider">
         <img class="img" src="img/offer1.avif" alt=""  id="photo1" />
       <img class="img" src="img/offer2.webp" alt=""  id="photo2" />
