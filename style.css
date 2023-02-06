@@ -3,6 +3,9 @@ body{
     /* background:linear-gradient(135deg,white,rgb(248, 200, 200)) */
     background: linear-gradient(135deg, rgb(125, 124, 124) ,white,white);
 }
+.ham{
+    display: none;
+}
 #first{
     /* display: none; */
     position:relative;
@@ -12,6 +15,9 @@ body{
     width: 6rem;
     margin-top: -30px;
     margin-left: 1rem;
+}
+.ham{
+    display: none;
 }
 #login{
    
@@ -347,5 +353,364 @@ form{
     #form2{
         height: 15rem;
         opacity: 0.98;
+    }
+    @media screen and (min-width:412px) and (max-width:915px)  {
+       
+body{
+    /* background:linear-gradient(135deg,white,rgb(248, 200, 200)) */
+    background: linear-gradient(135deg, rgb(125, 124, 124) ,white,white);
+}
+.ham{
+    display: block;
+}
+.non-ham{
+    display: none;
+}
+
+#first{
+    position:relative;
+}
+.ham-search1{
+    height: 5rem;
+    background-color: black;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ham-input{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#res-logo{
+    margin-top:1rem;
+    margin-left: -3rem;
+    height: 2.5rem;
+    width: 5rem;
+}
+#ham-option{
+    height: 10rem;
+    width:100%;
+    background-color: black;
+    margin-left: -1rem;
+    display: flex;
+    flex-direction: column;
+}
+#ham-login{
+    height: 2.5rem;
+    width: 6rem;
+    margin-left:2rem;
+    margin-top:1.5rem;
+    background-color: black;
+    color: white;
+}
+#ham-signup{
+    height: 2.5rem;
+    width: 6rem;
+    margin-left:2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+}
+#ham-search{
+    color: white;
+    background:linear-gradient(to right, lightgreen, yellow);
+    border-radius: 5px;
+}
+.slider{
+    height: 15rem;
+    width: 75%;
+    margin-top:1rem;
+    margin-left:1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius:10px;
+
+}
+.img
+{
+    height: 15rem;
+    width: 100%;
+    position:absolute;
+    animation: 10s  infinite;
+    animation-name: slider;
+}
+#photo1{
+    width:100%
+}
+#photo2{
+    width:100%;
+    margin-left:100%;
+    position: absolute;
+}
+#photo3{
+    width:100%;
+    margin-left:200%;
+    position: absolute;
+}
+#photo4{
+    width:100%;
+    margin-left:300%;
+    position: absolute;
+
+}
+@keyframes slider {
+   0%{
+    left:0%
+   }
+   9%{
+    left:-0%;
+   }
+   18%{
+    left:-100%;
+   }
+   27%{
+    left:-100%;
+   }
+   36%{
+    left:-200%;
+   }
+   45%{
+    left:-200%;
+   }
+   54%{
+    left:-300%;
+   }
+   62%{
+    left:-300%;
+   }
+   71%{
+    left:-200%;
+   }
+   80%{
+    left:-200%;
+   }
+   86%{
+    left:-100%;
+   }
+   93%{
+    left:-100%;
+   }
+   100%{
+    left:0%;
+   }
+} 
+.heading{
+    margin-left: 10%;
+    font-size:1.6rem;
+    color: black;
+}
+.heading2{
+    margin-left: 20%;
+    font-size:1.6rem;
+    color: black;
+}
+.heading3{
+    margin-left: 10px;
+    margin-top: 5rem;
+}
+.grid{
+    margin-top: 2rem;
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1.3rem;
+
+}
+.box{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px  black;
+    margin: 20px;
+    
+}
+.image{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10px;
+
+}
+.terms{
+    padding: 15px;
+    font-size: 0.2rem;
+    margin-left: -1rem;
+}
+footer{
+    background:linear-gradient(to right,black,rgb(64, 64, 64),black);
+    color: white;
+    height: 65rem;
+    margin-bottom: -10px;
+    width: 100%;
+    margin-left: -10px;
+   
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.copy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:0.7rem;
+    margin-left: -2rem;
+}
+
+#foot-img{
+    margin-left: 6rem;;
+    height: 5rem;
+    width:10rem;
+}
+
+marquee{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;;
+}
+
+.brand{
+    margin-top: 3rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#second{
+    margin-left:35%;
+    display: none;
+    position: absolute;
+    top:0;
+}
+form{
+    margin-top: 2rem;
+    height: 45rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    background-color:rgb(30, 29, 29);
+    opacity: 0.98;
+    color: white;
+    margin-left: -9rem;
+
+   }
+   select{
+    height: 2rem;
+    width: 4.2rem;
+    border: 2px solid black;
+    border-radius: 3px;
+   }
+   select:hover{
+    cursor: pointer;
+   }
+   input{
+    border-radius: 3px;
+    height: 1.2rem;
+    font-weight: bolder;
+    width: 150px;
+   }
+    label{
+        display: inline-block;
+        width: 100px;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 1rem;
+
+    }
+ 
+  .gender{
+    margin-left:-5.5rem;
+    font-size: 1rem;
+  }
+  .photo{
+    margin-left: 4.5rem;
+  }
+  .agree{
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    justify-content:space-around;
+    margin-left: -8rem;
+  }
+  #agree{
+    margin-left: -16rem;
+    }
+    #submit{
+        height: 2rem;
+        width: 5rem;
+        font-weight: bolder;
+        border-radius:5px;
+        background-color: rgb(221, 66, 66);
+        color: white;
+    }
+    #submit:hover{
+        color: white;
+        background-color: limegreen;
+        cursor: pointer;
+    }
+    #file{
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #file:hover{
+        cursor: pointer;
+    }
+    #cut{
+        height: 25px;
+        width: 25px;
+        margin-left: 17rem;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #cut:hover{
+        cursor:pointer;
+    }
+
+    #cb:hover{
+        cursor: pointer;
+    }
+    #third{
+        position:absolute;
+        top:25%;
+        margin-left:30%;
+        display: none;
+    }
+    #form2{
+        height: 15rem;
+        width:20rem;
+        margin-left: -8rem;
+        opacity: 0.98;
+    }
+    #third-name{
+        margin-left: 3rem;
+        display:flex;
+        justify-content: center;
+        margin-left: -2.5rem;
+    }
+    #third-pass{
+        margin-left: 3rem;
+        display:flex;
+        justify-content: center;
+        margin-left: -2.5rem;
+
+    }
+
+
+
+
+        
     }
 
