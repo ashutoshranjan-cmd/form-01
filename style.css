@@ -377,6 +377,7 @@ body{
     width: 106%;
     display: flex;
     justify-content: center;
+    margin-left: -1rem;
 }
 .ham-input{
     margin-top: 2rem;
@@ -394,6 +395,8 @@ body{
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin-left: -1rem;
+
 }
 #ham-login{
     height: 2.5rem;
