@@ -355,16 +355,16 @@ form{
         opacity: 0.98;
     }
     @media screen and (min-width:412px) and (max-width:915px)  {
-        
+       
 body{
     /* background:linear-gradient(135deg,white,rgb(248, 200, 200)) */
     background: linear-gradient(135deg, rgb(125, 124, 124) ,white,white);
 }
-div.non-ham{
-    display: none;
-}
-div.ham{
+.ham{
     display: block;
+}
+.non-ham{
+    display: none;
 }
 
 #first{
@@ -374,8 +374,8 @@ div.ham{
     height: 5rem;
     background-color: black;
     margin-top: -1rem;
-    margin-left: -0.5rem;
-    width: 100%;
+    margin-left: -1rem;
+    width: 106%;
     display: flex;
     justify-content: center;
 }
@@ -392,9 +392,9 @@ div.ham{
 }
 #ham-option{
     height: 10rem;
-    width:100%;
+    width:106%;
     background-color: black;
-    margin-left: -0.5rem;
+    margin-left: -1rem;
     display: flex;
     flex-direction: column;
 }
@@ -421,7 +421,7 @@ div.ham{
 }
 .slider{
     height: 15rem;
-    width: 88%;
+    width: 95%;
     margin-top:1rem;
     margin-left:1rem;
     position: relative;
@@ -498,12 +498,12 @@ div.ham{
    }
 } 
 .heading{
-    margin-left: 10%;
+    margin-left: 20%;
     font-size:1.6rem;
     color: black;
 }
 .heading2{
-    margin-left: 20%;
+    margin-left: 25%;
     font-size:1.6rem;
     color: black;
 }
@@ -522,7 +522,7 @@ div.ham{
 }
 .box{
     height: 15rem;
-    width: 22rem;
+    width: 24.5rem;
     border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 20px  black;
@@ -531,7 +531,7 @@ div.ham{
 }
 .image{
     height: 15rem;
-    width: 23rem;
+    width: 22rem;
     border-radius: 10px;
 
 }
@@ -545,7 +545,7 @@ footer{
     color: white;
     height: 65rem;
     margin-bottom: -10px;
-    width: 100%;
+    width: 106%;
     margin-left: -8px;
    
 
@@ -553,7 +553,7 @@ footer{
 .foot{
     display: flex;
     flex-direction: column;
-    margin-left: 12px;
+    margin-left: 18px;
 }
 .copy{
     color: white;
@@ -709,7 +709,6 @@ form{
     }
 
 
-       
 
 
         
