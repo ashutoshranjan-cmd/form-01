@@ -361,7 +361,7 @@ form{
         height: 15rem;
         opacity: 0.98;
     }
-    @media screen and (min-width:412px) and (max-width:915px)  {
+    @media screen and (min-width:424px) and (max-width:918px)  {
        
 body{
     /* background:linear-gradient(135deg,white,rgb(248, 200, 200)) */
@@ -376,6 +376,7 @@ body{
 
 #first{
     position:relative;
+    overflow: hidden;
 }
 .ham-search1{
     height: 5rem;
@@ -383,23 +384,20 @@ body{
     width: 110%;
     display: flex;
     justify-content: center;
-    margin-left: -2rem;
-    margin-top: -1rem;
-  
-   
- 
+    margin-left: -1rem;
+    margin-top: -1.5rem;
 
 }
 .ham-input{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-left: 4rem;
     border-radius: 5px;
 }
 #res-logo{
-    margin-top:1rem;
+    margin-top:1.5rem;
     height: 2.5rem;
     width: 5rem;
-    margin-left: 2rem;
+    margin-left: -1rem;
 }
 #ham-option{
     height: 10rem;
@@ -415,7 +413,7 @@ body{
 #ham-login{
     height: 2.5rem;
     width: 6rem;
-    margin-left:2.5rem;
+    margin-left:10rem;
     margin-top:1.5rem;
     background-color: black;
     color: white;
@@ -423,7 +421,7 @@ body{
 #ham-signup{
     height: 2.5rem;
     width: 6rem;
-    margin-left:2.5rem;
+    margin-left:10rem;
     margin-top: 2rem;
     background-color: black;
     color: white;
