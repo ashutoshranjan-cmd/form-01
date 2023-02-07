@@ -374,7 +374,7 @@ body{
     height: 5rem;
     background-color: black;
     margin-top: -1rem;
-    width: 106%;
+    width: 110%;
     display: flex;
     justify-content: center;
     margin-left: -2rem;
@@ -391,7 +391,7 @@ body{
 }
 #ham-option{
     height: 10rem;
-    width:106%;
+    width:110%;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -401,7 +401,7 @@ body{
 #ham-login{
     height: 2.5rem;
     width: 6rem;
-    margin-left:2rem;
+    margin-left:2.5rem;
     margin-top:1.5rem;
     background-color: black;
     color: white;
@@ -409,7 +409,7 @@ body{
 #ham-signup{
     height: 2.5rem;
     width: 6rem;
-    margin-left:2rem;
+    margin-left:2.5rem;
     margin-top: 2rem;
     background-color: black;
     color: white;
