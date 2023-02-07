@@ -590,7 +590,7 @@ marquee{
 form{
     margin-top: 2rem;
     height: 45rem;
-    width: 20rem;
+    width: 24rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -671,17 +671,11 @@ form{
     #cut{
         height: 25px;
         width: 25px;
-        margin-left: 17rem;
+        margin-left: 19rem;
         background-color: white;
         border-radius: 5px;
     }
-    #cut:hover{
-        cursor:pointer;
-    }
-
-    #cb:hover{
-        cursor: pointer;
-    }
+  
     #third{
         position:absolute;
         top:25%;
@@ -690,7 +684,7 @@ form{
     }
     #form2{
         height: 15rem;
-        width:20rem;
+        width:24rem;
         margin-left: -8rem;
         opacity: 0.98;
     }
